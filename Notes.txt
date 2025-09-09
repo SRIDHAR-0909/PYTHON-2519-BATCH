@@ -141,3 +141,47 @@
         -> NOTE : Cannot be keywords 
         -> NOTE: Case Sensitive (Name, name, NAME) (A, a)
         -> NOTE: Always name the Identifiers appropriately
+
+  -> Why Python / Key Features Of Python 
+
+    -> It's Easy (imp**)
+
+        -> Syntax
+        -> Execution
+        -> Simplicity of language(space)  
+
+    -> Fewer Lines Of Code (imp**)
+
+        -> Addition Program in Python it's 3 lines
+        -> Addition Program in Java it's 7 lines
+
+    -> Interpreted (Python) vs Compiled (Java) (imp**)
+
+        -> Performance -> Faster -> Compiled
+
+        -> Performance -> Slower -> Interpreted
+
+        -> Python Development Speed -> Faster 
+
+            -> Python is best prototype language
+
+        -> Java Development Speed -> Slower 
+
+    -> Dynamically Typed (Python) (imp**)
+
+        -> No need to explicitly define Data types
+
+        -> Static Typed (Java), where we need to explicitly
+            define the data types
+
+    -> Vast Library (imp**)
+
+    -> Scripting / Object Oriented (OOPS) / Functional (imp**)
+
+    -> Open Source (Free)
+
+    -> Robust 
+
+    -> Platform Independent
+
+    
