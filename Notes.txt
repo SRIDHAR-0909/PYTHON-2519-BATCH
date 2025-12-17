@@ -373,3 +373,429 @@
             -> int() -> converts to integer --> int(3.5) - 3
             -> float() -> converts to float --> int(3) - 3.0
             -> str() -> converts to string --> str(100) - "100"
+
+4th Sep 2025
+============
+
+    -> Control Structures / Statement
+
+    -> Control Structures helps you to control the flow of execution in program
+
+    -> Categories
+
+        -> Decision Making Statements (Conditional Statements)
+        -> Looping Statements (Iterative Statements)
+        -> Branching Statements (Jump Statements)
+
+    -> Conditional / Decision Making Statements
+
+        -> Used to evaluate a condition (True/False) 
+
+        -> if : Runs block of code if condition is true
+        -> if else : Runs one block of code if condition is true and 
+                     runs another block of code if condition is false
+        -> elif ladder : Used to check multiple conditions 
+        -> match-case : alternative to if-else, when you have multiple conditions
+    
+    -> Indentation : Refers to spaces to the beginning of the line that will 
+        define code blocks (conditionals, loops, functions, classes etc)
+
+        -> At least one space or recommended is 4 spaces 
+        -> All lines in the same block must have same Indentation
+        -> Improper Indentation : Syntax Error
+    
+    -> input() function : takes user input from keyboard as a string 
+
+        -> variable = input("Enter Some Value)
+
+    -> Ternary Operator : also called as Conditional Operator, allows you to
+        write short hand if-else Statement, generally used for single expressions
+
+        -> Syntax : 
+            value_if_true if condition else value_if_false
+
+5th Sep 2025
+============
+
+    -> Nested Conditionals : Conditionals inside Conditionals
+
+    -> Looping Statements (Iterative Statements)
+
+        -> Used to execute a block of code repeatedly, based on a condition.
+
+            -> For repetitive tasks and automation tasks
+        
+        -> while loop : Runs a block of code, as long as the specified condition is True
+
+        -> for loop : Used to Iterate over a Sequence(Strings, Lists, Tuples, Range etc)
+    
+        -> dir() : used to list all the valid attributes and functionalities 
+
+        -> range() : used to generate a sequence of numbers
+
+6th Sep 2025
+============
+
+    -> range(start,stop,step)
+
+        -> start: starting value by default is 0
+        -> stop: ending value(excluded)
+        -> step: increment default is 1
+
+    -> few examples
+
+        -> range(5) : 0 1 2 3 4
+        -> range(1,6) : 1 2 3 4 5
+        -> range(1,6,1) : 1 2 3 4 5
+        -> range(2,10,2) : 2 4 6 8 
+
+    -> To Do the step reverse use -1
+
+        -> range(10,1,-1) : 10 9 8 7 6 5 4 3 2
+        -> range(10,1,-2) : 10 8 6 4 2
+    
+    -> Nested Loops : Loops inside Loops
+
+    -> Branching Statements (Jump Statements)
+
+        -> Used to control the flow of iterations inside the loops  
+
+            -> break : exits the loop entirely
+            -> continue : skips the current iteration and continue the loop
+            -> pass : does nothing, generally used as place holder
+
+8th Sep 2025
+============
+
+-> Strings : One of the most important and widely used data type.
+
+-> In Python, String is a sequence of characters enclosed within 
+    single or double quotes, we can use triple quotes also but not recommended.
+
+    -> NOTE : triple quotes are recommended for multi line strings 
+
+    -> If you want to use ' inside a string, enclose with double quotes
+
+    -> If you want to use " inside a string, enclose with single quotes
+
+    -> If you want to use both ' and " quote, then use triple single or double quotes
+
+-> Indexing In Python
+
+    -> Python allows you to access each character in a string using an index number
+
+    -> Index Starts From 0 (Zero)
+
+    -> Indexing goes in both positive and negative directions too
+
+    -> text = "python"
+
+        0   1   2   3   4   5 (positive indexing)
+        p   y   t   h   o   n
+       -6              -2   -1 (negative indexing)
+
+       -> print(text[index])
+       -> print(text[4]) # o
+    
+    -> If index is not given properly, leads to Errors
+
+    -> NOTE: we have a predefined function len() -> returns number of items in an object
+
+
+    -> Slicing In Python : Slicing means cutting a substring from the original string using index
+
+        -> To access range of characters in a string
+
+        -> string[start:stop:step]
+
+            start: index to start from (inclusive)
+            stop: index to stop at (exclusive)
+            step: how many character to step(default is 1)
+9th Sep 2025
+============
+
+    -> Negative Slicing (Backward)
+
+    -> Positive Slicing (Forward)
+
+    -> String Immutability : Once a string is created, it cannot be changed 
+    
+    -> String Formatting 
+
+    -> String Repetition : Multiply the string using * operator
+
+    -> String Methods : String class provides multiple methods to work with string related operations
+
+        -> Input : RAvi2KRIshna
+
+        -> Output : ravi2krishna@gmail.combine
+
+11th Sep 2025
+=============
+
+    -> Application Using 
+        [ Identifiers - Variables - Operators - Control Statements - Strings]
+
+    
+12th Sep 2025
+=============
+
+    -> Enhanced Student Grade & FEE Tracker - 1
+
+13th Sep 2025
+=============
+
+    -> -> Enhanced Student Grade & FEE Tracker - 2
+
+15th Sep 2025
+=============
+
+    -> Complex Data Types (Data Structures)
+
+        -> Simple Data Type : One Value 
+
+            -> data = 10
+
+        -> Complex Data Type : Multiple Values 
+
+            -> data = [10,20,30,40,50] 
+
+    -> In python to store more than one value, we have following classes
+
+        -> Lists
+        -> Tuples
+        -> Sets
+        -> Dictionaries
+
+    -> Lists 
+
+        -> List is a data Structure which allows you to store multiple values in single variable
+
+        -> Lists are represented using [] or using list class
+
+        -> Accessing Data in lists
+
+            -> Like in strings, for lists we have index starts from 0
+
+            -> Has both positive and negative index
+
+            -> Indexing same as strings
+
+            -> Slicing same as strings
+
+            -> nums = [10,20,30,40,50]
+
+                     0   1    2    3    4  (positive indexing)
+                    10   20   30   40   50  
+                    -6             -2   -1 (negative indexing)
+            
+            -> string[start:stop:step]
+
+            start: index to start from (inclusive)
+            stop: index to stop at (exclusive)
+            step: how many character to step(default is 1)
+
+    -> Negative Slicing (Backward)
+
+    -> Positive Slicing (Forward)
+
+16th Sep 2025
+=============
+
+    -> Looping Through Lists 
+
+    -> Using Operators on elements of lists
+
+    -> Conditionals with Lists 
+
+    -> Duplicates are also allowed in Lists 
+
+    -> List Methods / Operations
+
+        print(dir(list))
+
+17th Sep 2025
+=============
+
+-> List Methods / Operations Continued 
+
+-> List Characteristics 
+
+    -> Ordered : Lists preserve order 
+
+    -> Mutable : Changeable / Modifiable (append(), remove())
+
+    -> Duplicates allowed 
+
+    -> Can hold different types of data (int, str, float etc)
+
+
+->  Tuples 
+
+     -> Tuples is a data Structure which allows you to store multiple values in single variable
+
+        -> Tuples are represented using () or using tuple class
+
+        -> Accessing Data in Tuples
+
+            -> Like in strings, for Tuples we have index starts from 0
+
+            -> Has both positive and negative index
+
+            -> Indexing same as strings
+
+            -> Slicing same as strings
+
+            -> nums = (10,20,30,40,50)
+
+                     0   1    2    3    4  (positive indexing)
+                    10   20   30   40   50  
+                    -6             -2   -1 (negative indexing)
+            
+            -> string[start:stop:step]
+
+            start: index to start from (inclusive)
+            stop: index to stop at (exclusive)
+            step: how many character to step(default is 1)
+
+    -> Negative Slicing (Backward)
+
+    -> Positive Slicing (Forward)
+
+    -> Looping Through Tuples 
+
+    -> Using Operators on elements of Tuples
+
+    -> Conditionals with Tuples 
+
+    -> Duplicates are also allowed in Tuples 
+
+    -> Tuples Methods / Operations
+
+        print(dir(tuple))
+    
+
+-> Tuples Characteristics 
+
+    -> Ordered : Tuples preserve order 
+
+    -> Immutable(*) : Not Changeable / Not Modifiable (only index() & count())
+
+    -> Duplicates allowed 
+
+    -> Can hold different types of data (int, str, float etc)
+
+    -> NOTE : Tuples should be used in READ ONLY DATA (Constant/Fixed/Static)
+
+18th Sep 2025
+=============
+
+-> Dictionaries (Mapping Type Of Data)
+
+    -> Dictionaries are a data Structure which allows you to store multiple key values in single variable
+
+    -> key:value : Item/Pair 
+
+    -> Dictionaries are represented using {} or using dict class
+
+    -> NO INDEXING 
+
+    -> NO SLICING 
+
+    -> key:value ==> immutable:any_object
+
+        -> keys can be immutables only (tuple, string, int)
+
+        -> values can be any object
+
+
+19th Sep 2025
+=============
+
+    -> Dictionary Operations
+
+    -> Dictionary Characteristics 
+
+        -> Ordered : Dictionary preserve order 
+
+        -> Mutable : Changeable / Modifiable (update(), clear())
+
+        -> Duplicates allowed 
+
+            -> keys cannot be duplicates, if they are values will be replaced 
+
+            -> value can be duplicates
+
+        -> Can hold different types of data 
+
+            -> keys should immutable only
+
+            -> values can be any object
+        
+        -> NOTE : Dictionaries should be used in MAPPING TYPE Of data
+
+-> Sets 
+
+    -> Sets is a data Structure which allows you to store multiple values in single variable
+
+        -> Sets are represented using {} or using set class
+
+        -> dict = {1:100,2:200}
+        -> set = {100,200}
+
+    -> Sets are UUU 
+
+        -> U - Unordered (Insertion Order is not preserved)
+        -> U - Unique (No Duplicates, if you add they will be removed)
+        -> U - Unindex (No Index)
+
+        -> No Indexing
+
+        -> No Slicing
+
+    -> Sets are used especially for set related Mathematical operations
+
+        -> Union
+        -> Intersection 
+        -> Difference 
+        -> Symmetric Difference
+
+20th Sep 2025
+=============
+
+    -> Set Operations
+
+    -> Set is Mutable 
+    -> FrozenSet is Immutable
+
+    -> Set Characteristics 
+
+        -> UnOrdered : Set don't preserve order 
+
+        -> Mutable : Changeable / Modifiable 
+
+        -> Duplicates Not allowed 
+
+        -> Can hold different types of data (int, str, float etc)
+
+        -> NOTE : Sets should be used in unordered / random access
+
+        -> ImMutable Set: FrozenSet
+
+22nd Sep 2025
+=============
+
+    -> Student Management System Using Complex Data Types 
+
+    -> This Application will simulate CRUD operations that we perform on Databases 
+
+    -> As of now it's a console based Application
+
+    -> If you know web app frameworks, then you can build a web layer around this 
+
+        -> Django 
+
+23rd Sep 2025
+=============
+
+    -> Student Management System Continued 
